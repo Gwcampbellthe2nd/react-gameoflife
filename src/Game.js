@@ -116,7 +116,7 @@ class Game extends React.Component {
                 } else {
                     if (!this.board[y][x] && neighbors === 3) {
                         newBoard[y][x] = true;
-                    }
+                    } 
                 }
             }
         }
